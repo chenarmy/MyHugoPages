@@ -1,3 +1,5 @@
 # 首页
 
-> An awesome project.
+> 这里主要展示个人收藏的东西
+
+# [工作目录](/work/index.md)
