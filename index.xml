@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Welcome to Doks on doks-main</title>
-    <link>https://chenarmy.github.io/</link>
+    <link>https://home.chenyouyou.top/</link>
     <description>Recent content in Welcome to Doks on doks-main</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 07 Sep 2023 16:33:54 +0200</lastBuildDate>
-    <atom:link href="https://chenarmy.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://home.chenyouyou.top/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Example Post</title>
-      <link>https://chenarmy.github.io/blog/example/</link>
+      <link>https://home.chenyouyou.top/blog/example/</link>
       <pubDate>Thu, 07 Sep 2023 16:27:22 +0200</pubDate>
-      <guid>https://chenarmy.github.io/blog/example/</guid>
+      <guid>https://home.chenyouyou.top/blog/example/</guid>
       <description>You can use blog posts for announcing product updates and features.</description>
     </item>
     <item>
       <title>Example Guide</title>
-      <link>https://chenarmy.github.io/docs/guides/example/</link>
+      <link>https://home.chenyouyou.top/docs/guides/example/</link>
       <pubDate>Thu, 07 Sep 2023 16:04:48 +0200</pubDate>
-      <guid>https://chenarmy.github.io/docs/guides/example/</guid>
+      <guid>https://home.chenyouyou.top/docs/guides/example/</guid>
       <description>Guides lead a user through a specific task they want to accomplish, often with a sequence of steps. Writing a good guide requires thinking about what your users are trying to do.&#xA;Further reading Read about how-to guides in the Diátaxis framework </description>
     </item>
     <item>
       <title>Example Reference</title>
-      <link>https://chenarmy.github.io/docs/reference/example/</link>
+      <link>https://home.chenyouyou.top/docs/reference/example/</link>
       <pubDate>Thu, 07 Sep 2023 16:13:18 +0200</pubDate>
-      <guid>https://chenarmy.github.io/docs/reference/example/</guid>
+      <guid>https://home.chenyouyou.top/docs/reference/example/</guid>
       <description>Reference pages are ideal for outlining how things work in terse and clear terms. Less concerned with telling a story or addressing a specific use case, they should give a comprehensive outline of what your documenting.&#xA;Further reading Read about reference in the Diátaxis framework </description>
     </item>
     <item>
       <title>Privacy Policy</title>
-      <link>https://chenarmy.github.io/privacy/</link>
+      <link>https://home.chenyouyou.top/privacy/</link>
       <pubDate>Thu, 07 Sep 2023 17:19:07 +0200</pubDate>
-      <guid>https://chenarmy.github.io/privacy/</guid>
+      <guid>https://home.chenyouyou.top/privacy/</guid>
       <description></description>
     </item>
   </channel>

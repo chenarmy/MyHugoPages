@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>doks-main</title>
-    <link>https://chenarmy.github.io/nl/</link>
+    <link>https://home.chenyouyou.top/nl/</link>
     <description>Recent content on doks-main</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>nl</language>
-    <atom:link href="https://chenarmy.github.io/nl/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://home.chenyouyou.top/nl/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
