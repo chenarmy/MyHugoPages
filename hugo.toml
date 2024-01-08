@@ -1,5 +1,0 @@
-baseURL = 'https://chenarmy.github.io/MyHugoPages/'
-languageCode = 'en-us'
-title = 'doks-main'
-
-theme = "doks-main"
