@@ -1,4 +1,7 @@
 * [Docker 安装](../software/docker.md)
+    * [Thingsboard 安装](../software/docker.md)
+        * [Thingsboard 安装](../software/centos/thingsboard/install.md)
+        * [Thingsboard-Gateway 安装](../software/centos/thingsboard-gateway/install.md)
 * [Docker-Compose 安装](../software/docker-compose.md)
 * [Centos 安装](../software/centos.md)
 * [Debian 安装](../software/debian.md)
