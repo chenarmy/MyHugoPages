@@ -1,24 +1,15 @@
 # 源码打包运行
 
-- 官网下载python版本，安装后配置环境变量，python -V 是3.11.6，pip -V 是 23.0.1
-    - [Download Windows installer](https://www.python.org/ftp/python/3.11.6/python-3.11.6-amd64.exe)
-    - [Download XZ compressed source tarball](https://www.python.org/ftp/python/3.11.6/Python-3.11.6.tar.xz)
-    - [Download Gzipped source tarball](https://www.python.org/ftp/python/3.11.6/Python-3.11.6.tgz)
-- 下载thingsboard-gateway版本，当前最新是 [3.4.4](https://codeload.github.com/thingsboard/thingsboard-gateway/zip/refs/tags/3.4.4)
-- 安装依赖 (windows是python和pip，linux是python3和pip3)
+- 下载配置 java11 环境，这里不介绍
+- 安装 yarn 和 npm 环境，对应 thingsboard 中 pom.xml 的版本
+- 到 msa 下 web-ui 目录，到 msa 下 javascript 目录，以及 ui-ngx 目录下
+- 执行，并生成 target 目录，里面有 node 等文件
 ```
-pip install -r requirements.txt
+yarn install
 ```
-- 安装：
+- 项目根目录，执行以下命令进行打包
 ```
-python setup.py install
+mvn install -DskipTests
 ```
-- 打包：
-```
-python setup.py build
-```
-- 运行：进入build目录，执行 
-```
-python tb-gateway.py
-```
-- 执行的时候遇到提示升级，请勿升级！！！
+- 进入 application 目录中的 target，选择对应的部署方式进行部署
+
