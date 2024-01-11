@@ -32,3 +32,7 @@ SELECT * FROM device;
 ```
 - \dt 列出所有表
 - \d table_name 查看特定表的详细信息
+- 启动运行项目
+```
+java -jar thingsboard-3.6.2-boot.jar
+```
