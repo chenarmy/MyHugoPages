@@ -1,15 +1,24 @@
 # 源码打包运行
 
-- 下载配置java11环境，这里不介绍
-- 安装yarn和npm环境，对应thingsboard中pom.xml的版本
-- 到msa下web-ui目录，到msa下javascript目录，以及ui-ngx目录下
-- 执行,并生成target目录，里面有node等文件
+- 官网下载python版本，安装后配置环境变量，python -V 是3.11.6，pip -V 是 23.0.1
+    - [Download Windows installer](https://www.python.org/ftp/python/3.11.6/python-3.11.6-amd64.exe)
+    - [Download XZ compressed source tarball](https://www.python.org/ftp/python/3.11.6/Python-3.11.6.tar.xz)
+    - [Download Gzipped source tarball](https://www.python.org/ftp/python/3.11.6/Python-3.11.6.tgz)
+- 下载thingsboard-gateway版本，当前最新是 [3.4.4](https://codeload.github.com/thingsboard/thingsboard-gateway/zip/refs/tags/3.4.4)
+- 安装依赖 (windows是python和pip，linux是python3和pip3)
 ```
-yarn install
+pip install -r requirements.txt
 ```
-- 项目根目录，执行以下命令进行打包
+- 安装：
 ```
-mvn install -DskipTests
+python setup.py install
 ```
-- 进入application目录中的target，选择对应的部署方式进行部署
-
+- 打包：
+```
+python setup.py build
+```
+- 运行：进入build目录，执行 
+```
+python tb-gateway.py
+```
+- 执行的时候遇到提示升级，请勿升级！！！
