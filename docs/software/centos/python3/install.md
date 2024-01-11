@@ -41,6 +41,8 @@ source ~/.bashrc
 - 如果出现 ssl 问题，则需要安装先安装 openssl，然后执行两段命令
 ```
 ./configure --prefix="/home/jenkins/python/Python311" --enable-optimizations --with-openssl=/usr/local/openssl --with-openssl-rpath=auto
+```
 
+```
 make j && make install
 ```
