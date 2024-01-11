@@ -37,4 +37,10 @@ source ~/.bashrc
 - 系统自带的 Python2 和 Python3 不要删除，也不要替换！
 - 安装选项 --enable-shared 不要设置，没有/usr/lib 的权限，会失败
 - --enable-optimizations 提高 Python 解释器的性能和执行效率
-- 
+- 指定 https 源：pip3 install numpy -i https://pypi.tuna.tsinghua.edu.cn/simple (有很多源不完整，不建议更换)
+- 如果出现 ssl 问题，则需要安装先安装 openssl，然后执行两段命令
+```
+./configure --prefix="/home/jenkins/python/Python311" --enable-optimizations --with-openssl=/usr/local/openssl --with-openssl-rpath=auto
+
+make j && make install
+```
