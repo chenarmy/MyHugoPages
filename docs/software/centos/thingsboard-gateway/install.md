@@ -10,7 +10,6 @@
     | [Download Gzipped source tarball](https://www.python.org/ftp/python/3.11.6/Python-3.11.6.tgz)  | [源码安装](../software/centos/python3/install.md) |
 
 - 下载 thingsboard-gateway 版本，当前最新是 [3.4.4](https://codeload.github.com/thingsboard/thingsboard-gateway/zip/refs/tags/3.4.4)
-- 安装依赖 (windows 是 python 和 pip，linux 是 python3 和 pip3)
   
 ## 安装
 - 安装依赖 (windows 是 python 和 pip，linux 是 python3 和 pip3)
