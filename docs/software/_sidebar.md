@@ -2,6 +2,7 @@
 * [Docker-Compose 安装](../software/docker-compose.md)
 * [Centos 安装](../software/centos.md)
     * [Thingsboard 安装](../software/centos/index.md)
+        * [node18 安装](../software/centos/node18/index.md)
         * [Openssl 安装](../software/centos/openssl/index.md)
         * [Python3 安装](../software/centos/python3/install.md)
         * [Thingsboard 安装](../software/centos/thingsboard/install.md)
